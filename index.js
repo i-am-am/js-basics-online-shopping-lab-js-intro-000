@@ -28,6 +28,7 @@ function viewCart() {
     scart += `${cart[i].itemName} at $${cart[i].itemPrice}`
   }
   scart += `.`
+  return scart
 }
 
 function total() {
