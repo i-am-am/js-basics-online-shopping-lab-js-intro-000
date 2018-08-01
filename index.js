@@ -22,7 +22,7 @@ function viewCart() {
   var scart = `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}`
   for (var i = 1; i < cart.length; i++){
     scart += `, `
-    if (i === cart.length){
+    if (i === cart.length - 1){
       scart += `and `
     }
     scart += `${cart[i].itemName} at $${cart[i].itemPrice}`
